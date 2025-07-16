@@ -1,0 +1,42 @@
+# 应用服务 WEB 访问端口
+server:
+  port: 8088
+
+# oss控制台: https://oss.console.aliyun.com
+# oss云存储的EndPoint（地域节点）
+# 下面这个写法不对，因为我们用的是spirngboot的ali云，spring写法不是这样写的（下面应该是阿里常规写法
+#alibaba:
+#  cloud:
+#    access-key: LTAI5tS8VTpo6oLi2WsztRrp
+#    secret-key: qki2RnqsNWFn3zYIX4AlCOZzaBG6s2
+#    oss:
+#      endpoint: oss-cn-chengdu.aliyuncs.com
+#      bucket: christinabucket
+
+#      # 可选配置
+#      enable-https: true          # 启用HTTPS
+#      cname: false                # 是否使用自定义域名
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/teacher_platform_db?serverTimezone=UTC
+    username: root
+    password: zxcvbnm
+    servlet:
+      multipart:
+        enabled: true #是否启用http上传处理
+        max-request-size: 100MB #最大请求文件的大小
+        max-file-size: 20MB #设置单个文件最大长度
+        file-size-threshold: 20MB #当文件达到多少时进行磁盘写入
+
+aliyun:
+  oss:
+    endpoint: oss-cn-chengdu.aliyuncs.com
+    access-key-id: LTAI5tS8VTpo6oLi2WsztRrp
+    access-key-secret: qki2RnqsNWFn3zYIX4AlCOZzaBG6s2
+    bucket-name: christinabucket
+
+# JWT配置
+jwt:
+  secret: YourVerySecretKeyForThisProjectWhichIsLongAndSecure123456
+  expiration: 604800

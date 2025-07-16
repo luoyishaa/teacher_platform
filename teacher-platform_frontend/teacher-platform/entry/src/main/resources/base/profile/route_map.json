@@ -1,0 +1,132 @@
+{
+  "routerMap": [
+    {
+      "name": "Register",
+      "pageSourceFile": "src/main/ets/pages/Register.ets",
+      "buildFunction": "RegisterBuilder",
+      "data": {
+        "description" : "this is Register Page"
+      }
+    },
+    {
+      "name": "Role",
+      "pageSourceFile": "src/main/ets/pages/Role.ets",
+      "buildFunction": "RoleBuilder",
+      "data": {
+        "description" : "this is Role Information Page"
+      }
+    },
+    {
+      "name": "User_Info",
+      "pageSourceFile": "src/main/ets/pages/User_Info.ets",
+      "buildFunction": "User_InfoBuilder",
+      "data": {
+        "description" : "this is User_Info Page"
+      }
+    },
+    {
+      "name": "InfoChange",
+      "pageSourceFile": "src/main/ets/pages/InfoChange.ets",
+      "buildFunction": "InfoChangeBuilder",
+      "data": {
+        "description" : "this is Information-Change Page"
+      }
+    },
+    {
+      "name": "Admin_Layout",
+      "pageSourceFile": "src/main/ets/pages/Admin_Layout.ets",
+      "buildFunction": "Admin_LayoutBuilder",
+      "data": {
+        "description" : "this is Admin Layout"
+      }
+    },
+    {
+      "name": "User_Manage",
+      "pageSourceFile": "src/main/ets/pages/User_Manage.ets",
+      "buildFunction": "User_ManageBuilder",
+      "data": {
+        "description" : "this is User_Manage Layout"
+      }
+    },
+    {
+      "name": "Log_Recording",
+      "pageSourceFile": "src/main/ets/pages/Log_Recording.ets",
+      "buildFunction": "Log_RecordingBuilder",
+      "data": {
+        "description" : "this is Log Recording"
+      }
+    },
+    {
+      "name": "Audit_Report",
+      "pageSourceFile": "src/main/ets/pages/Audit_Report.ets",
+      "buildFunction": "Audit_ReportBuilder",
+      "data": {
+        "description" : "this is Audit Report"
+      }
+    },
+    {
+      "name": "InfoChange_byAdmin",
+      "pageSourceFile": "src/main/ets/pages/InfoChange_byAdmin.ets",
+      "buildFunction": "InfoChange_byAdminBuilder",
+      "data": {
+        "description" : "this is InfoChange_byAdmin Report"
+      }
+    },
+    {
+      "name": "Teacher_Layout",
+      "pageSourceFile": "src/main/ets/pages/Teacher_Layout.ets",
+      "buildFunction": "Teacher_LayoutBuilder",
+      "data": {
+        "description" : "this is Teacher Layout"
+      }
+    },
+    {
+      "name": "Course_Manage",
+      "pageSourceFile": "src/main/ets/pages/Course_Manage.ets",
+      "buildFunction": "Course_ManageBuilder",
+      "data": {
+        "description" : "this is Course Manage"
+      }
+    },
+    {
+      "name": "Add_Course",
+      "pageSourceFile": "src/main/ets/pages/Add_Course.ets",
+      "buildFunction": "Add_CourseBuilder",
+      "data": {
+        "description" : "this is Add Course"
+      }
+    },
+    {
+      "name": "Add_Chapter",
+      "pageSourceFile": "src/main/ets/pages/Add_Chapter.ets",
+      "buildFunction": "Add_ChapterBuilder",
+      "data": {
+        "description" : "this is Add Chapter"
+      }
+    },
+    {
+      "name": "Resource_Upload",
+      "pageSourceFile": "src/main/ets/pages/Resource_Upload.ets",
+      "buildFunction": "Resource_UploadBuilder",
+      "data": {
+        "description" : "this is Resource Upload"
+      }
+    },
+    {
+      "name": "Course_Detail",
+      "pageSourceFile": "src/main/ets/pages/Course_Detail.ets",
+      "buildFunction": "Course_DetailBuilder",
+      "data": {
+        "description" : "this is Course Detail"
+      }
+    },
+    {
+      "name": "Chapter_Detail",
+      "pageSourceFile": "src/main/ets/pages/Chapter_Detail.ets",
+      "buildFunction": "Chapter_DetailBuilder",
+      "data": {
+        "description" : "this is Chapter Detail"
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "string": [
+    {
+      "name": "read_media_reason",
+      "value": "Allow app to access media files for selection"
+    },
+    {
+      "name": "internet_reason",
+      "value": "Enable file upload functionality"
+    },
+    {
+      "name": "module_desc",
+      "value": "module description"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "description"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "智慧教育系统"
+    }
+
+  ]
+}
